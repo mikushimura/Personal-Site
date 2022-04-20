@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Miku Shimura</title>
+        <link rel="stylesheet" href=style.css> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Montserrat&family=Oxygen:wght@300&display=swap">
+        <style>
+           .me{
+               border-radius: 15px;
+               box-shadow: 0px 5px 10px black;
+
+           }
+
+           .profile{  
+                border-bottom: 2px solid #ABB8A5;         
+               padding: 20px 20px 20px;
+               display: flex;
+
+           }
+           
+           .row {
+                margin: 8px -16px;
+            }
+
+           .row, .row > .column {
+               padding: 8px
+           }
+
+           .column{
+               width: 50%;
+               float:left
+
+           }
+
+           .row:after {
+                display: table;
+                clear: both;
+           }
+
+           .content {
+               background: #E0E0D8;
+               padding: 10px;
+           }
+
+           #project {
+               font-size: 35px;
+               text-align: center;
+           }
+
+           h3 {
+               font-size: 20px;
+           }
+
+           .nm {
+               font-size: 40px;
+           }
+
+           #absc, #goog {
+            text-decoration: none;
+            color: #3B4536; 
+            font-size: 20px;
+           }
+
+
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <div><h1 class="logo"><a href=index.html>MS</a></h1></div>
+            <div><h1 class="nm">Miku Shimura</h1></div>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="#project">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="profile accent">
+            <h2 class="accent p20 tc c50">Hi, my name is Miku and I'm currently studying to become a web developer in NYC. I started volunteering at the American Buddhist Study Center as a marketing volunteer. After managing their homepage, my interest in web development grew. My skills include HTML5, CSS, and Javascript.</h2>
+            <div class="accent p20"><img src="images/IMG_4296.jpg" class="me"></div>
+        </section>
+        <section class="projects p20">
+            <div>
+                <h1 id="project">Projects</h1>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <div class="content">
+                        <img src="images/Screen Shot 2022-04-17 at 10.13.53 PM.png" alt="absc" style="width: 100%">
+                        <a href="https://www.ambuddhist.org/" id="absc"><h3 class="content tc">American Buddhist Study Center</h3></a>
+                        <p class="content tc">Using Wix and HTML, I maintain and update the ABSC homepage.</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                        <img src="images/Screen Shot 2022-04-18 at 8.08.06 PM.png" alt="absc" style="width: 100%">
+                        <a href="https://www.google.com/" id="goog"><h3 class="content tc">Google</h3></a>
+                        <p class="content tc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+<!--- <footer>
+            <div id="page-container">
+                <div id="content-wrap">
+                    <p id="footer"> &copy; Mikuko Shimura 2022</p>
+                </div>
+            </div>
+        </footer>  
+    </body> --->
+</html>
